@@ -1,16 +1,7 @@
-var inputOne = document.querySelector('.first-number');
-var inputTwo = document.querySelector('.second-number');
-var button = document.querySelector('.calculate-button');
-var answer = document.querySelector('.answer');
-var answer = document.querySelector('.answer');
-var answer = document.querySelector('.answer');
-
 // Questions & Answers
 // Show me how to calculate the average price of all items.
 // The average price is $23.63
-
-var .answer1 = document.querySelector('.section-one').textContent;
-
+var ans1, 
 
 var totalPrice = 0;
 
@@ -19,14 +10,20 @@ items.forEach(function(item) {
 });
 
 var avgPrice = totalPrice / items.length;
-  return avgPrice;
+  return avgPrice.toFixed(2);
+
+// This was me trying out document.querySelector.....
+var p = document.querySelector('.answer1');
+    function .answer1() {
+      p.textcontent = "The average price is " + avgPrice + ".";
+    };
 
 
 // Show me how to get an array of items that cost between $14.00 and $18.00 USD
 //1970s Coors Banquet Glass Beer Pitcher
 // The Three Broomsticks Customizable Beer Stein Mug
 // Hand Painted Colorful Feather Glass 
-
+var .answer2 = document.querySelector('.section-two').textContent;
 
 var itemsWeWant = items.filter(function(item) {
   return (item.price > Number(14) && item.price < Number(18)) 
