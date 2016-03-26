@@ -17,26 +17,6 @@ answer1.innerHTML = "The average price is " + avgPrice.toFixed(2) + ".";
 
 
 
-
-// function getAvgPrice(item) {
-//   avgPrice = totalPrice / items.length;
-
-//   return avgPrice.toFixed(2);
-// };
-
-// answer1.innerHTML("The average price is " + avgPrice.toFixed(2) + ".");
-
-
-  
-
-
-// This was me trying out document.querySelector.....
-// var p = document.querySelector('.answer1');
-//     function .answer1() {
-//       p.textcontent = "The average price is " + avgPrice + ".";
-//     };
-
-
 // Show me how to get an array of items that cost between $14.00 and $18.00 USD
 //1970s Coors Banquet Glass Beer Pitcher
 // The Three Broomsticks Customizable Beer Stein Mug
@@ -127,12 +107,10 @@ var nameNumberMaterials = eightOrMore.map(function(eightOrMoreObj) {
 });
 
 
-answer5.innerHTML = nameNumberMaterials[0].title + " has " + nameNumberMaterials[0].materials.length + " items." + '<br>' + nameNumberMaterials[0].materials.join('<br>') + '<br><br>' + nameNumberMaterials[1].title + " has " + nameNumberMaterials[1].materials.length + " items." + '<br>' + nameNumberMaterials[1].materials.join('<br>');
-
-// var nameNumberMaterials = eightOrMore.map(function(eightOrMoreObj) {
-//   return eightOrMoreObj.title, eightOrMoreObj.materials.length, eightOrMoreObj.materials;
-
-// });
+answer5.innerHTML = nameNumberMaterials[0].title + " has " + nameNumberMaterials[0].materials.length 
++ " items." + '<br>' + nameNumberMaterials[0].materials.join('<br>') 
++ '<br><br>' + nameNumberMaterials[1].title + " has " + nameNumberMaterials[1].materials.length 
++ " items." + '<br>' + nameNumberMaterials[1].materials.join('<br>');
 
 
 // How many items were made by their sellers?
